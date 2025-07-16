@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "baa5",
+      "name": "Pedrito navaja",
+      "userName": "pedrito",
+      "password": "123",
+      "email": "pedrito@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "4bfc",
+      "name": "Antoni Martines ",
+      "userName": "anto",
+      "password": "123",
+      "email": "antony@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "4bfc",
+      "name": "Andres cortez ",
+      "userName": "Robin",
+      "password": "123",
+      "email": "robin@gmail.com",
+      "role": "user"
+    }
+  ],
+  "events": [
+    {
+      "id": "22",
+      "tittle": "Another edited",
+      "description": "Bainstorming session for the new project edited",
+      "capacity": "1",
+      "date": "2025-07-31",
+      "registered": [
+        "pedrito@gmail.com"
+      ]
+    },
+    {
+      "id": "b0ad",
+      "tittle": "New Event test",
+      "description": "New Event today",
+      "date": "2025-07-31",
+      "registered": [],
+      "capacity": "100"
+    },
+    {
+      "id": "d40a",
+      "tittle": "Pepperland",
+      "description": "Rock Event",
+      "date": "2001-12-21",
+      "registered": [
+        "pedrito@gmail.com",
+        "antony@gmail.com"
+      ],
+      "capacity": "100"
+    },
+    {
+      "id": "32b6",
+      "tittle": "Event only 1 person",
+      "description": "1 person",
+      "date": "2025-07-19",
+      "registered": [
+        "antony@gmail.com"
+      ],
+      "capacity": "1"
+    }
+  ]
+}

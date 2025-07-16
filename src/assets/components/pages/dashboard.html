@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel SPA</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      min-height: 100vh;
+      background-color: #e9b5b5;
+      padding: 1.5rem 1rem;
+    }
+
+    .sidebar .btn {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    #main-content {
+      background-color: #ebebeb;
+      padding: 2rem;
+      height: 95vh;
+    }
+    .addButton {
+          position: fixed;
+            right: -88vw;
+            
+    }
+    .active {
+      background-color: #0d6efd !important;
+      color: #000000 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebar" class="col-md-3 col-lg-2 sidebar text-white">
+        <h4 id="userName" class="text-white mb-4"></h4>
+        
+        <a id="nav-events" class="btn btn-outline-light" data-view="Events">Events</a>
+        <a id="nav-enrollments" class="btn btn-outline-light" data-view="Enrollments">Enrollments</a>
+        <button type="button"class="btn btn-outline-light" onclick="logout()" > log Out</button>
+
+      
+      </nav>
+        <div id="addButton" class="addButton" ></div>
+        <main id="main" class="col-md-9 col-lg-10">
+
+        </main>
+    </div>
+    
+    
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script type="module" src="/src/assets/scripts/main.js"></script>
+  <script src="../../scripts/guardian/auth.js"></script>
+    <script type="module" src="/src/assets/scripts/guardian/router.js"></script>
+
+  
+</body>
+</html>

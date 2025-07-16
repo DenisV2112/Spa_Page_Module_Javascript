@@ -1,0 +1,18 @@
+{
+  "name": "deniseduardosanchezloaiza756",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "Denis",
+  "license": "ISC"
+}
