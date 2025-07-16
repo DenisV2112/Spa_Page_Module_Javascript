@@ -79,7 +79,8 @@ A Single Page Application (SPA) built with JavaScript, HTML5, and CSS3, focused 
   - View their registered events in the same view.
 
 ---
-![alt text](image.png)
+![Uploading image.png…]()
+
 
 
 ### How to run
